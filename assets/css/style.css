@@ -3,7 +3,10 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
+
+ul { list-style: circle; padding-left: 5px; line-height: 2;
+}
+
 a { color:blue; text-decoration: none;}
 .bar {
     background-color: #f9f9fb;
@@ -23,8 +26,20 @@ a { color:blue; text-decoration: none;}
     padding-right: 1rem;
 }
 .footer {
-    min-height: 100px;
+    min-height: 50px;
     border-top: solid 1px #cdcdcd;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 10;
+    margin: 0 auto;
+}
+.footer li {
+    display: inline;
+    margin-right: 10px;
+}
+.footer nav {
+    text-align: center;
 }
 .anchors {
     border-left: solid 1px #cdcdcd;
